@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/TuanKul/TK-CONFIGURATION-API.git
+          username: thaithanhtuan4343@gmail.com
+          password: Tuan875648826
+          timeout: 10
+          default-label: main
+#          username: hien.nguyen
+#          password: abcd1234
+#          basedir: master
+#          basedir: master
